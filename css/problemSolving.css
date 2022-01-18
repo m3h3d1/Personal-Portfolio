@@ -55,25 +55,3 @@
     color: #000;
     margin: 10px 0 5px;
 }
-
-.slider {
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-
-.slider div {
-    height: 15px;
-    width: 15px;
-    background-color: #fff;
-    border: 1px solid #5f88e0;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 10px 6px;
-    cursor: pointer;
-}
-
-.slider div.active {
-    background-color: #5f88e0;
-
-}

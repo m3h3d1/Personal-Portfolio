@@ -157,7 +157,6 @@ a {
   .navbar ul li {
     display: block;
     margin-left: 0;
-
   }
 
   .navbar ul li a {
@@ -224,39 +223,5 @@ a {
   .contact-form .col-6 {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-}
-
-@media(max-width: 500px) {
-  .home .home-content .block {
-    padding-left: 20px;
-  }
-
-  .home .home-content .block h1 {
-    font-size: 30px;
-  }
-
-  .home .home-content .block h3 {
-    font-size: 15px;
-  }
-
-  .about .about-content .social a {
-    margin: 0px 3px;
-  }
-
-  .gallery .item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .testimonials-box .testimonials-img {
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .testimonials-img .test-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-
   }
 }

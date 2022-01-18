@@ -13,7 +13,6 @@ window.onscroll = function () {
 }
 
 //navbar links
-
 const navbar = document.querySelector(".navbar");
 a = navbar.querySelectorAll("a")
 
@@ -25,14 +24,6 @@ a.forEach(function (element) {
     this.classList.add("active");
     document.querySelector(".navbar").classList.toggle("show");
   })
-})
-
-//Hamburger
-
-const hamBurger = document.querySelector(".hamburger");
-
-hamBurger.addEventListener("click", function () {
-  document.querySelector(".navbar").classList.toggle("show");
 })
 
 //Footer Year 
